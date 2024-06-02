@@ -21,9 +21,9 @@ yes | pkg install libjansson wget nano
 3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/Credik100/pre-compiled/generic/ccminer
-wget https://raw.githubusercontent.com/Credik100/pre-compiled/generic/config.json
-wget https://raw.githubusercontent.com/Credik100/pre-compiled/generic/start.sh
+wget https://raw.githubusercontent.com/Credik100/pre-compiled/balmik/ccminer
+wget https://raw.githubusercontent.com/Credik100/pre-compiled/balmik/config.json
+wget https://raw.githubusercontent.com/Credik100/pre-compiled/balmik/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
@@ -37,7 +37,7 @@ nano config.json
 ```
 2. Start ccminer with:
 ```
-~/ccminer/start.sh
+./start.sh
 ```
 3. Close ccminer with:
 ```
