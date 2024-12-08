@@ -15,8 +15,9 @@ https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.11
 2. Get Termux ready:
 - Type `y` then enter key in any prompts!
 ```
-yes | pkg update && pkg upgrade
-yes | pkg install libjansson wget nano
+yes | pkg update -y
+yes | pkg upgrade -y
+yes | pkg install libjansson wget nano -y
 ```
 3. Download ccminer, config, start:
 ```
@@ -27,6 +28,18 @@ wget https://raw.githubusercontent.com/Credik100/pre-compiled/generic/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
+Auto Mining code
+
+cd && cd && cd && nano ../usr/etc/bash.bashrc
+
+AND
+
+termux-wake-lock
+cd ccminer/&&./start.sh
+
+Download
+Autoboot APP
+https://apkcombo.com/bootcontrol/com.microntek.bootcontrol/download/apk
 
 1. Edit your pools, address, worker name:
 - Pools use the `"disabled"` feature so `1` = Off (not used) while `0` = On (will use this pool)
